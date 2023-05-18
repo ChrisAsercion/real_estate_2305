@@ -82,6 +82,7 @@ Use TDD to update your `House` class so that it responds to the following intera
 There are **4** methods in iteration 3:
 
 * A house is `#above_market_average?` if its price is greater than $500,000.
+# true if house > 500,000
 * A house can list its `#rooms_from_category` by taking a symbol of the room, and returning the instances of the matching rooms.
 * A house can calculate its `#area` by adding together the areas of its rooms.
 * A house's `#details` should return a Hash of its attributes (`price` and `address`).
